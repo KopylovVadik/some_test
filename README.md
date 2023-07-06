@@ -25,6 +25,7 @@ class DeliveryState(AbstractState):
     STATE_NONE = 8  # Не определено
 ` ` `
 Соответсвенно, теперь сможем работать:
+
 ` ` `
 delivery_state = DeliveryState.get(DeliveryState.STATE_NEW)
 ` ` `
