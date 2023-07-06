@@ -36,7 +36,7 @@ delivery_state = DeliveryState.get(DeliveryState.STATE_NEW)
 
 * Пункт 2
 
-Для решения данной задачи используем сигналы pre-save и pst-save.
+Для решения данной задачи используем сигналы pre-save и post-save.
 
 
 
