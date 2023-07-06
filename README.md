@@ -3,6 +3,7 @@
 Для решения данной задачи я бы применил абстрактные модели django.
 
 ` ` `
+
 class AbstractState(models.Model):
     class Meta:
         abstract = True
