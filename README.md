@@ -28,7 +28,7 @@
     STATE_NONE = 8  # Не определено
 
 
-Соответсвенно, теперь сможем работать:
+Соответсвенно, теперь сможем работать так:
 
 `
 delivery_state = DeliveryState.get(DeliveryState.STATE_NEW)
