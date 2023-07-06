@@ -1,5 +1,7 @@
 * Пункт 1
+
 Для решения данной задачи я бы применил абстрактные модели django.
+
 ` ` `
 class AbstractState(models.Model):
     class Meta:
@@ -24,6 +26,7 @@ class DeliveryState(AbstractState):
     STATE_COMPLETE = 7  # Завершена
     STATE_NONE = 8  # Не определено
 ` ` `
+
 Соответсвенно, теперь сможем работать:
 
 ` ` `
